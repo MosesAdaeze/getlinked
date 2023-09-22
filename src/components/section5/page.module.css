@@ -41,8 +41,8 @@
     text-align: start;
     font-size: 1rem;
   }
-     .section__rowx {
-     display: flex;
+  .section__rowx {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
     position: relative;
@@ -50,11 +50,11 @@
     margin: 0 0 2rem 1rem;
   }
   .section__textx {
-     padding: 0 3rem 0 4rem;
+    padding: 0 3rem 0 4rem;
     margin: auto 0 0 0;
   }
   .section__textx h2 {
-     text-align: start;
+    text-align: start;
     padding: 10px 0 10px 0;
     color: rgba(212, 52, 254, 1);
     font-size: 1.2rem;
@@ -63,6 +63,12 @@
     max-width: 100vw;
     text-align: start;
     font-size: 1rem;
+  }
+  .section__textx h3 {
+    text-align: start;
+     padding: 10px 0 10px 0;
+    color: rgba(212, 52, 254, 1);
+    font-size: 1.2rem;
   }
   .grid__inline {
     display: grid;
@@ -119,19 +125,19 @@
     text-align: start;
     font-size: 1rem;
   }
-     .section__rowx {
-     display: flex;
+  .section__rowx {
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     gap: 5vw;
     margin: 0 0 4rem 5rem;
   }
   .section__textx {
-     padding: 0 3rem 0 4rem;
+    padding: 0 3rem 0 4rem;
     margin: auto 0 0 0;
   }
   .section__textx h2 {
-  text-align: start;
+    text-align: start;
     padding: 10px 0 10px 0;
     color: rgba(212, 52, 254, 1);
     font-size: 2rem;
@@ -140,6 +146,12 @@
     max-width: 100vw;
     text-align: start;
     font-size: 1rem;
+  }
+  .section__textx h3 {
+    text-align: start;
+    padding: 10px 0 10px 0;
+    color: rgba(212, 52, 254, 1);
+    font-size: 2rem;
   }
   .grid__inline {
     display: grid;
@@ -195,7 +207,7 @@
     text-align: end;
     font-size: 0.9rem;
   }
-    .section__rowx {
+  .section__rowx {
     display: flex;
     flex-wrap: wrap;
     gap: 5vw;
@@ -211,10 +223,17 @@
     text-align: start;
     padding: 10px 0 10px 0;
     color: rgba(212, 52, 254, 1);
+     font-size: 1.5rem;
   }
   .section__textx p {
     text-align: start;
     font-size: 0.9rem;
+  }
+  .section__textx h3 {
+    text-align: end;
+    padding: 10px 0 10px 0;
+    color: rgba(212, 52, 254, 1);
+    font-size: 1.5rem;
   }
 
   .grid__inline {

@@ -34,7 +34,7 @@ export default function Section5() {
 
         <div className={styles.section__rowx}>
           <div className={styles.section__textx}>
-            <h2>November 18, 2023</h2>
+            <h3>November 18, 2023</h3>
           </div>
           <div className={styles.grid__inline}>
             <div>
@@ -74,7 +74,7 @@ export default function Section5() {
         </div>
         <div className={styles.section__rowx}>
           <div className={styles.section__textx}>
-            <h2>November 18, 2023</h2>
+            <h3>November 18, 2023</h3>
           </div>
           <div className={styles.grid__inline}>
             <div>
@@ -114,7 +114,7 @@ export default function Section5() {
         </div>
         <div className={styles.section__rowx}>
           <div className={styles.section__textx}>
-            <h2>November 18, 2023</h2>
+            <h3>November 18, 2023</h3>
           </div>
           <div className={styles.grid__inline}>
             <div>
