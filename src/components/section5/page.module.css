@@ -4,6 +4,7 @@
     display: grid;
     width: 100vw;
     font-family: var(--font-montserrat);
+    z-index: -1;
   }
   .section__header {
     display: grid;
@@ -88,6 +89,7 @@
     display: grid;
     width: 100vw;
     font-family: var(--font-montserrat);
+    z-index: -1;
   }
   .section__header {
     display: grid;

@@ -2,7 +2,7 @@
 @media (max-width: 768px) {
   .menuList {
     position: relative;
-    z-index: 2;
+    z-index: 999;
     display: flex;
     justify-content: space-between;
     width: 100vw;

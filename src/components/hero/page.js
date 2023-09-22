@@ -1,6 +1,7 @@
-import Image from "next/image";
+
 import styles from "./page.module.css";
 import RegisterButton from "../register-button/button";
+import CountdownTimer from "./countdown";
 export default function Hero() {
   return (
     <div className={styles.Hero}>
@@ -29,7 +30,7 @@ export default function Hero() {
             Big prize
           </p>
           <RegisterButton />
-          <p>00m 00s 00h</p>
+          <CountdownTimer />
         </div>
         <div className={styles.subHeading__HeroImg}>
           <img src="/man-glasses.png" alt="omo" />

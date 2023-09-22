@@ -1,3 +1,6 @@
+.main {
+  position: relative;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -5,6 +8,9 @@
     position: relative;
     border-bottom: solid 2px rgba(116, 116, 116, 0.306);
     font-family: var(--font-montserrat);
+    position: fixed;
+    width: 100vw;
+    background-color:  rgba(21, 14, 40, 1);
   }
   .menu {
     height: fit-content;
