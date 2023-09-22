@@ -150,7 +150,7 @@
 /* Large screens (992px and above) */
 @media (min-width: 992px) {
   .Hero {
-     margin: 20vh 0 0 0;
+     margin: 17vh 0 0 0;
   }
   .subHeading {
     display: flex;
@@ -162,9 +162,10 @@
   }
   .subHeading h2 {
     font-style: italic;
+    font-size: 1.7rem;
   }
   .subHeading__img img {
-    width: 175px;
+    width: 200px;
   }
   .subHeading__text {
     background: url("/stars1.png");

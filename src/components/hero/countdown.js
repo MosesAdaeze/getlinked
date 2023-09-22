@@ -39,7 +39,7 @@ function CountdownTimer() {
 
   return (
     <div>
-      <h2>{countdown}</h2>
+      <h2 >{countdown}</h2>
     </div>
   );
 }
