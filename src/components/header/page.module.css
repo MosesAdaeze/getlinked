@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+    border-bottom: solid 2px rgba(116, 116, 116, 0.306);
+    font-family: var(--font-montserrat);
+  }
+  .menu {
+    height: fit-content;
+    margin: auto 0 auto;
+  }
+  .logo{
+    height: fit-content;
+    margin: auto 0 auto;
+    font-weight: 800;
+  }
+  .logo span {
+  color: rgba(212, 52, 254, 1);
+  }
+  
+/* Small screens (up to 768px) */
+@media (max-width: 768px) {
+     .header{
+         padding: 25px 45px 14px 45px;
+    }
+   .logo{
+    font-size: 1.1rem;
+  }
+  /* CSS styles for small screens go here */
+}
+
+/* Medium screens (768px to 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .header{
+         padding: 30px 50px 10px 50px;
+    }
+    .logo{
+    font-size: 1.2rem;
+  }
+  /* CSS styles for medium screens go here */
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+    .header{
+         padding: 40px 100px 25px 100px;
+    }
+    .logo{
+    font-size: 1.5rem;
+  }
+
+  /* CSS styles for large screens go here */
+}

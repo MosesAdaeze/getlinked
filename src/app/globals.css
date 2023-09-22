@@ -90,16 +90,18 @@ body {
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgba(21, 14, 40, 1)
     )
-    rgb(var(--background-start-rgb));
+    rgba(21, 14, 40, 1);
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-
+ul li {
+ list-style: none;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

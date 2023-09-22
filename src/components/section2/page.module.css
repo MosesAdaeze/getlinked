@@ -1,0 +1,106 @@
+.Section2 {
+   border-bottom: solid 2px rgba(116, 116, 116, 0.306);
+   padding: 2rem 0 2rem 0;
+    width: 100vw;
+}
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+   .Section2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 1rem 0 auto;
+  }
+  .section__img {
+  }
+  .section__img img {
+    width: 100vw;
+    padding: 0 10px 0 10px;
+  }
+  .section__text {
+    font-family: var(--font-montserrat);
+    text-align: center;
+    padding: 0 1rem 0 1rem;
+  }
+  .section__text h1 {
+    text-align: center;
+    font-size: 5.5vw;
+    padding: 1.5rem 0 0 0;
+  }
+  .section__text h1 span {
+    color: rgba(212, 52, 254, 1);
+  }
+  .section__text p {
+    font-size: 4vw;
+    padding: 1rem 2rem 1rem 2rem;
+    line-height: 1.5rem;
+  }
+  /* CSS styles for small screens go here */
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+ .Section2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 1rem 0 auto;
+  }
+  .section__img {
+    margin: 5rem 0 5rem 0;
+  }
+  .section__img img {
+    width: 100vw;
+    padding: 0 10px 0 10px;
+  }
+  .section__text {
+    font-family: var(--font-montserrat);
+    text-align: center;
+    padding: 0 3rem 0 3rem;
+  }
+  .section__text h1 {
+    text-align: center;
+    font-size: 5.5vw;
+  }
+  .section__text h1 span {
+    color: rgba(212, 52, 254, 1);
+  }
+  .section__text p {
+    font-size: 2vw;
+    padding: 1rem 4rem 1rem 4rem;
+    line-height: 1.5rem;
+  }
+  /* CSS styles for medium screens go here */
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+  .Section2 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 auto;
+  } 
+  .section__img {
+  
+  }
+  .section__img img {
+   margin: 0 0 0 5rem;
+  }
+  .section__text {
+    margin: auto 0 auto;
+    font-family: var(--font-montserrat);
+  }
+  .section__text h1 {
+    width: 27rem;
+  }
+  .section__text h1 span {
+    color: rgba(212, 52, 254, 1);
+  }
+  .section__text p {
+    width: 35vw;
+    font-size: 0.8rem;
+    padding: 2rem 0 2rem;
+    line-height: 1.5rem;
+  }
+  /* CSS styles for large screens go here */
+}

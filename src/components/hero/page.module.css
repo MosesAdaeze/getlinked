@@ -1,0 +1,201 @@
+.Hero {
+  border-bottom: solid 2px rgba(116, 116, 116, 0.306);
+}
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+ .subHeading {
+    display: grid;
+    justify-content: center;
+    min-width: 100vw;
+    padding: 2rem 0 4rem 0;
+    font-family: var(--font-montserrat);
+  }
+  .subHeading h2 {
+    font-size: 4.5vw;
+    font-style: italic;
+    margin: 0 auto 0 auto;
+  }
+  .subHeading__img {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .subHeading__img img {
+    width: 32vw;
+  }
+  .subHeading__text {
+    background: url("/stars1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto 0 auto;
+    font-family: var(--font-montserrat);
+  }
+  .subHeading__text span:first-child {
+    position: relative;
+  }
+  .subHeading__text span:first-child img {
+    position: absolute;
+    left: 1vw;
+    top: -9vw;
+    width: 7.5vw;
+  }
+  .subHeading__text span:nth-child(2) {
+    position: relative;
+    color: rgba(212, 52, 254, 1);
+  }
+  .subHeading__text span:nth-child(2) img {
+    width: 8vw;
+    height: auto;
+  }
+  .hero__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .subHeading__text {
+    text-align: center;
+  }
+  .subHeading__text h1 {
+    font-size: 10vw;
+  }
+  .subHeading__text p {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1.5rem 10vw 2rem 10vw;
+  }
+  .subHeading__HeroImg img {
+    width: 100vw;
+  }
+
+
+  /* CSS styles for small screens go here */
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .subHeading {
+    display: grid;
+    justify-content: center;
+    min-width: 100vw;
+    padding: 2rem 4rem 4rem 0;
+    font-family: var(--font-montserrat);
+  }
+  .subHeading h2 {
+    font-size: 1.7rem;
+    font-style: italic;
+    margin: 0 auto 0 auto;
+  }
+  .subHeading__img {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .subHeading__img img {
+    width: 199px;
+  }
+  .subHeading__text {
+    background: url("/stars1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto 0 auto;
+    font-family: var(--font-montserrat);
+  }
+  .subHeading__text span:first-child {
+    position: relative;
+  }
+  .subHeading__text span:first-child img {
+    position: absolute;
+    left: 0.9vw;
+    top: -1.5rem;
+    width: 1.8rem;
+  }
+  .subHeading__text span:nth-child(2) {
+    position: relative;
+    color: rgba(212, 52, 254, 1);
+  }
+  .subHeading__text span:nth-child(2) img {
+    width: 4rem;
+    height: auto;
+  }
+  .hero__section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .subHeading__text {
+    text-align: center;
+  }
+  .subHeading__text h1 {
+    font-size: 4rem;
+  }
+  .subHeading__text p {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2rem 9rem 2.5rem 9rem;
+  }
+  .subHeading__HeroImg img {
+    width: 100vw;
+  }
+
+  /* CSS styles for medium screens go here */
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+  .subHeading {
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    min-width: 100vw;
+    padding: 1.5rem 4rem 1.5rem 0;
+    font-family: var(--font-montserrat);
+  }
+  .subHeading h2 {
+    font-style: italic;
+  }
+  .subHeading__img img {
+    width: 175px;
+  }
+  .subHeading__text {
+    background: url("/stars1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto 0 auto;
+    font-family: var(--font-montserrat);
+  }
+  .subHeading__text span:first-child {
+    position: relative;
+  }
+  .subHeading__text span:first-child img {
+    position: absolute;
+    left: 0.9vw;
+    top: -1.7rem;
+    width: 2rem;
+  }
+  .subHeading__text span:nth-child(2) {
+    position: relative;
+    color: rgba(212, 52, 254, 1);
+  }
+  .subHeading__text span:nth-child(2) img {
+    width: 3.6rem;
+    height: auto;
+  }
+  .hero__section {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 10vw;
+  }
+  .subHeading__text {
+  }
+  .subHeading__text h1 {
+    font-size: 4.8vw;
+  }
+  .subHeading__text p {
+    font-size: 1.1rem;
+    width: 29rem;
+    padding: 2rem 0 2.5rem;
+  }
+  .subHeading__HeroImg img {
+    width: 43vw;
+  }
+
+  /* CSS styles for large screens go here */
+}

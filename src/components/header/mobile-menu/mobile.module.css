@@ -1,0 +1,42 @@
+/* Small screens (up to 768px) */
+@media (max-width: 768px) {
+  .menuList {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 30px 45px 20px 30px;
+    height: 100dvh;
+    background-color: rgba(21, 14, 40, 1);
+  }
+  .menuList_links {
+    height: fit-content;
+    margin: auto 0 auto;
+  }
+  .menuList ul li {
+    margin: 14px;
+    font-size: 18px;
+  }
+  /* CSS styles for small screens go here */
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .MobileMenu {
+    display: none;
+  }
+  /* CSS styles for medium screens go here */
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+  .MobileMenu {
+    display: none;
+  }
+  /* CSS styles for large screens go here */
+}
