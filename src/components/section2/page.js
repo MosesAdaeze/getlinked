@@ -18,7 +18,7 @@ export default function Section2() {
         </p>
       </div>
       <div className={styles.section__img}>
-         <img src="/Lady-sit.png" alt="omo" />
+         <img src="/lady-sit.png" alt="omo" />
       </div>
     </div>
   );
