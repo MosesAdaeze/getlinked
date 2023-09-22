@@ -38,7 +38,7 @@ function CountdownTimer() {
 
   return (
     <div>
-      <h2 style={{ margin: '5vh 0 10vh 0', fontSize: '4vw' }} >{countdown}</h2>
+      <h2 style={{ margin: '5vh 0 5vh 0'}} >{countdown}</h2>
     </div>
   );
 }

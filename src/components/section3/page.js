@@ -6,13 +6,7 @@ export default function Section3() {
   return (
     <div className={styles.Section3}>
       <div className={styles.section__img}>
-        <Image
-          src="/man-woman.svg"
-          alt="bolb idea illustration"
-          width={405}
-          height={405}
-          priority
-        />
+        <img src="/man-woman.png" alt="omo" />
       </div>
       <div className={styles.section__text}>
         <h1>

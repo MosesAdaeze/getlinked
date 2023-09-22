@@ -17,12 +17,12 @@ export default function Hero() {
             getlinked Te
             <span>
               c
-              <img src="/bolb.svg" alt="omo" />
+              <img src="/bolb.png" alt="omo" />
             </span>
             h Hackathon&nbsp;
             <span>
-              1.0<img src="/chain.svg" alt="omo" />
-             <img src="/spark.svg" alt="omo" />
+              1.0<img src="/chain.png" alt="omo" />
+             <img src="/spark.png" alt="omo" />
             </span>
           </h1>
           <p>

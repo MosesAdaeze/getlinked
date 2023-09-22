@@ -14,13 +14,7 @@ export default function Section4() {
         </p>
       </div>
       <div className={styles.section__img}>
-        <Image
-          src="/thinking-man.svg"
-          alt="omo"
-          width={405}
-          height={405}
-          priority
-        />
+         <img src="/thinking-man.svg" alt="omo" />
       </div>
     </div>
   );

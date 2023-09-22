@@ -86,6 +86,7 @@
   }
   .section__img img {
    margin: 0 0 0 5rem;
+   width: 40vw;
   }
   .section__text {
     margin: auto 0 auto;

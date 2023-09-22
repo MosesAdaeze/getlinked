@@ -5,13 +5,7 @@ export default function Section1() {
   return (
     <div className={styles.Section1}>
       <div className={styles.section__img}>
-        <Image
-          src="/bolbidea.svg"
-          alt="bolb idea illustration"
-          width={405}
-          height={405}
-          priority
-        />
+         <img src="/bolbidea.svg" alt="omo" />
       </div>
       <div className={styles.section__text}>
         <h1>Introduction to getlinked <span>techHackathon 1.0</span> </h1>

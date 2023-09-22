@@ -18,13 +18,7 @@ export default function Section2() {
         </p>
       </div>
       <div className={styles.section__img}>
-        <Image
-          src="/lady-sit.svg"
-          alt="omo"
-          width={405}
-          height={405}
-          priority
-        />
+         <img src="/Lady-sit.png" alt="omo" />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@
     min-width: 40vw;
     padding: 0.8rem 0 0.8rem;
     border: none;
-    color: white;
+    color: white; font-size: 1.2rem;
     border-radius: 5px;
     font-family: var(--font-montserrat);
     background: linear-gradient(
@@ -23,7 +23,7 @@
     min-width: 16vw;
     padding: 0.8rem 0 0.8rem;
     border: none;
-    color: white;
+    color: white; font-size: 1.3rem;
     border-radius: 5px;
     font-family: var(--font-montserrat);
     background: linear-gradient(
