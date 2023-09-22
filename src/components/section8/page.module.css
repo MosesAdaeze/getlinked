@@ -1,13 +1,13 @@
-.Section4 {
+.Section8 {
    border-bottom: solid 2px rgba(116, 116, 116, 0.306);
    padding: 2rem 0 2rem 0;
     width: 100vw;
 }
 /* Small screens (up to 767px) */
 @media (max-width: 767px) {
-   .Section4 {
+   .Section8 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     margin: 1rem 0 auto;
   }
@@ -25,7 +25,7 @@
   .section__text h1 {
     text-align: center;
     font-size: 5.5vw;
-     padding: 0 14vw 0 14vw;
+    padding: 1.5rem 0 0 0;
   }
   .section__text h1 span {
     color: rgba(212, 52, 254, 1);
@@ -40,9 +40,9 @@
 
 /* Medium screens (768px to 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
- .Section4 {
+ .Section8 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     margin: 1rem 0 auto;
   }
@@ -61,7 +61,6 @@
   .section__text h1 {
     text-align: center;
     font-size: 5.5vw;
-     padding: 0 14vw 0 14vw;
   }
   .section__text h1 span {
     color: rgba(212, 52, 254, 1);
@@ -76,7 +75,7 @@
 
 /* Large screens (992px and above) */
 @media (min-width: 992px) {
-  .Section4 {
+  .Section8 {
     display: flex;
     justify-content: center;
     margin: 5rem 0 auto;
@@ -86,7 +85,7 @@
   }
   .section__img img {
    margin: 0 0 0 5rem;
-   width: 40vw;
+   width: 37vw;
   }
   .section__text {
     margin: auto 0 auto;
@@ -99,8 +98,8 @@
     color: rgba(212, 52, 254, 1);
   }
   .section__text p {
-    width: 26vw;
-    font-size: 0.9rem;
+    width: 35vw;
+    font-size: 0.8rem;
     padding: 2rem 0 2rem;
     line-height: 1.5rem;
   }
