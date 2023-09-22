@@ -85,6 +85,7 @@
     display: flex;
     justify-content: center;
     margin: 5rem 0 auto;
+    gap: 3rem;
   }
   .section__img {
      margin: auto 0 auto;

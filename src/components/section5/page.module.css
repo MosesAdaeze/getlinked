@@ -179,10 +179,10 @@
     display: grid;
     margin: 0 auto 0 auto;
     text-align: center;
-    padding: 3rem 0 2.5rem 0;
+    padding: 3rem 0 0 0;
   }
   .section__header p {
-    max-width: 35vw;
+    max-width: 28vw;
     font-size: 1rem;
   }
   .section__content {
