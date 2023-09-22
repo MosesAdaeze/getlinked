@@ -23,14 +23,13 @@ function CountdownTimer() {
 
     if (timeDifference <= 0) {
       return '00d 00h 00m 00s'; // Countdown has ended
-    }
-
-    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+      }
+      
     const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-    return `${formatNumber(days)}d ${formatNumber(hours)}h ${formatNumber(minutes)}m ${formatNumber(seconds)}s`;
+    return ` ${formatNumber(hours)}h ${formatNumber(minutes)}m ${formatNumber(seconds)}s`;
   }
 
   function formatNumber(number) {
@@ -39,7 +38,7 @@ function CountdownTimer() {
 
   return (
     <div>
-      <h2 >{countdown}</h2>
+      <h2 style={{ margin: '5vh 0 10vh 0', fontSize: '4vw' }} >{countdown}</h2>
     </div>
   );
 }
