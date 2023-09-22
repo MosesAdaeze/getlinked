@@ -7,13 +7,7 @@ export default function Hero() {
       <div className={styles.subHeading}>
         <h2>Igniting a Revolution in HR Innovation</h2>
         <div className={styles.subHeading__img}>
-          <Image
-            src="/vector4.svg"
-            alt="vector img"
-            width={219}
-            height={17}
-            priority
-          />
+         <img src="/Vector4.svg" alt="omo" />
         </div>{" "}
       </div>
       <div className={styles.hero__section}>
