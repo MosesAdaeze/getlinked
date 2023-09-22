@@ -1,0 +1,115 @@
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+  .Section6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: var(--font-montserrat);
+    margin: 3rem 0 3rem 0;
+  }
+  .section__img {
+    display: flex;
+    justify-content: center;
+  }
+  .section__img img {
+    width: 100vw;
+    padding: 0 1rem 0 1rem;
+  }
+  .section__imgx img {
+    width: 90vw;
+  }
+  .section__text {
+    display: grid;
+    margin: 3rem 0 3rem 5vw;
+      text-align: center;
+  }
+  .section__text h2 {
+    width: 100vw;
+  
+  }
+  .section__text p {
+    font-size: 0.9rem;
+    width: 100vw;
+
+  }
+  .section__text h2 span {
+    color: rgba(212, 52, 254, 1);
+  }
+  /* CSS styles for small screens go here */
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .Section6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: var(--font-montserrat);
+    margin: 3rem 0 3rem 0;
+  }
+  .section__img {
+    display: flex;
+    justify-content: center;
+  }
+  .section__img img {
+    width: 100vw;
+    padding: 0 3rem 0 3rem;
+  }
+  .section__imgx img {
+    width: 90vw;
+  }
+  .section__text {
+    display: grid;
+    justify-items: center;
+    margin: 3rem 0 3rem 5vw;
+      text-align: center;
+  }
+  .section__text h2 {
+    max-width: 30vw;
+    font-size: 2rem;
+  }
+  .section__text p {
+    font-size: 0.9rem;
+    max-width: 45vw;
+
+  }
+  .section__text h2 span {
+    color: rgba(212, 52, 254, 1);
+  }
+  /* CSS styles for medium screens go here */
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+  .Section6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    font-family: var(--font-montserrat);
+    margin: 3rem 0 3rem 0;
+  }
+  .section__img img {
+    width: 35vw;
+  }
+  .section__imgx img {
+    width: 35vw;
+  }
+  .section__imgx {
+    margin: auto 0 0 0;
+  }
+  .section__text {
+    display: grid;
+    margin: 3rem 0 3rem 5vw;
+  }
+  .section__text h2 {
+    width: 13vw;
+  }
+  .section__text p {
+    font-size: 0.9rem;
+    width: 24vw;
+  }
+  .section__text h2 span {
+    color: rgba(212, 52, 254, 1);
+  }
+  /* CSS styles for large screens go here */
+}

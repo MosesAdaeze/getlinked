@@ -1,0 +1,79 @@
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+   .Section7 {
+    display: grid;
+    flex-wrap: wrap;
+    font-family: var(--font-montserrat);
+  }
+  .section__img img{
+    width: 90vw;
+  }
+  .section__text {
+    display: grid;
+    justify-items: center;
+    margin: 3rem 0 3rem 0;
+  }
+  .section__text h2 {
+
+  }
+  .section__text p {
+    max-width: 80vw;
+    text-align: center;
+    font-size: 4vw;
+    padding: 1.5rem 0 0 0;
+  }
+  /* CSS styles for small screens go here */
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .Section7 {
+    display: grid;
+    flex-wrap: wrap;
+    font-family: var(--font-montserrat);
+  }
+  .section__img img{
+    width: 90vw;
+  }
+  .section__text {
+    display: grid;
+    justify-items: center;
+    margin: 3rem 0 3rem 0;
+  }
+  .section__text h2 {
+    font-size: 4vw;
+  }
+  .section__text p {
+    max-width: 80vw;
+    text-align: center;
+    font-size: 2vw;
+    padding: 1.5rem 0 0 0;
+  }
+  /* CSS styles for medium screens go here */
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+  .Section7 {
+    display: grid;
+    flex-wrap: wrap;
+    font-family: var(--font-montserrat);
+  }
+  .section__img img{
+    width: 75vw;
+  }
+  .section__text {
+    display: grid;
+    justify-items: center;
+    margin: 3rem 0 3rem 0;
+  }
+  .section__text h2 {
+
+  }
+  .section__text p {
+    max-width: 35vw;
+    text-align: center;
+    padding: 1.5rem 0 0 0;
+  }
+  /* CSS styles for large screens go here */
+}
