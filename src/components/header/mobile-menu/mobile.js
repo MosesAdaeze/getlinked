@@ -26,24 +26,12 @@ export default function MobileMenu() {
           </ul>
           </div>
           <div onClick={handleClick}>
-            <Image
-              src="/closebtn.svg"
-              alt="Close vector"
-              width={23}
-              height={23}
-              priority
-            />
+            <img className={styles.img} src="/closebtn.svg" alt="omo" />
           </div>
         </div>
       ) : (
         <div onClick={handleClick}>
-          <Image
-            src="/openbtn.svg"
-            alt="Open vector"
-            width={19}
-            height={14}
-            priority
-          />
+          <img className={styles.img} src="/openbtn.svg" alt="omo" />
         </div>
       )}
     </div>

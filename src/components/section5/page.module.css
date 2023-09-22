@@ -130,6 +130,7 @@
   .section__rowx {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column-reverse;
     position: relative;
     gap: 5vw;
     margin: 0 0 4rem 5rem;

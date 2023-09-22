@@ -22,6 +22,9 @@
     margin: 14px;
     font-size: 18px;
   }
+  .img {
+    width: 6vw;
+  }
   /* CSS styles for small screens go here */
 }
 
