@@ -104,5 +104,30 @@
     padding: 2rem 0 2rem;
     line-height: 1.5rem;
   }
+  /* FAQ STYLE CONTAINER  */
+
+  .faq_container {
+    padding: 1rem 0 2rem 0;
+  }
+
+  .faq_item {
+    border-bottom: 1px solid rgba(212, 52, 254, 1);
+  }
+
+  .faq_question {
+    cursor: pointer;
+    padding: 2.2rem 1rem 1rem 1rem;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .faq_question img {
+  margin-left: 2.2rem;
+ }
   /* CSS styles for large screens go here */
 }

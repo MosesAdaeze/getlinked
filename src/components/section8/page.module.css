@@ -3,6 +3,8 @@
    padding: 3rem 0 2rem 0;
     width: 100vw;
 }
+
+
 /* Small screens (up to 767px) */
 @media (max-width: 767px) {
    .Section8 {
@@ -103,5 +105,62 @@
     padding: 1rem 0 1rem;
     line-height: 1.5rem;
   }
+  /* css privacy policy box  */
+  .policy_container {
+    margin-top: 5rem;
+    border: 1px solid rgba(212, 52, 254, 1);
+    padding: 2rem 3rem 2rem 3.5rem;
+  }
+
+  .license h4 {
+    margin-top: 2.5rem;
+    color: rgba(212, 52, 254, 1);
+  }
+
+  .license p {
+    /* width: 26vw; */
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+
+  .license_list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .license_list img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .button {
+    text-align: center;
+  }
+
+  .readMoreButton {
+    margin-top: 1rem;
+    min-width: 8vw;
+    padding: 0.9rem 0 0.9rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-family: var(--font-montserrat);
+    background: linear-gradient(
+      to right,
+      rgba(254, 52, 185, 1),
+      rgba(212, 52, 254, 1),
+      rgba(144, 58, 255, 1)
+    );
+     cursor: pointer;
+  }
+
+
+
+
+
+
+
   /* CSS styles for large screens go here */
 }
