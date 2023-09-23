@@ -2,19 +2,68 @@
 
 /* Small screens (up to 767px) */
 @media (max-width: 767px) {
+     .Footer {
+        display: grid;
+         font-family: var(--font-montserrat);
+         background-color: rgba(16, 11, 32, 1);
+    }
+     .section__bottom {
+        display: flex;
+          margin: 3rem 0 3rem 0;
+        justify-content: center;
+        font-family: var(--font-montserrat);
+    }
   /* CSS styles for small screens go here */
 }
 
 /* Medium screens (768px to 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
+     .Footer {
+        display: grid;
+         font-family: var(--font-montserrat);
+         background-color: rgba(16, 11, 32, 1);
+    }
+     .section__bottom {
+        display: flex;
+          margin: 3rem 0 3rem 0;
+        justify-content: center;
+        font-family: var(--font-montserrat);
+    }
   /* CSS styles for medium screens go here */
 }
 
 
 /* Large screens (992px and above) */
 @media (min-width: 992px) {
- 
-    
+    .Footer {
+        display: grid;
+         font-family: var(--font-montserrat);
+         background-color: rgba(16, 11, 32, 1);
+         padding: 3rem 0 3rem 0;
+    }
+    .section__content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14vw;
+    }
+    .section__content p {
+        width: 30vw;
+        font-size: 0.9rem;
+        padding: 1rem 0 1rem 0;
+    }
+    .section__content h4 {
+        color: rgba(212, 52, 254, 1);
+    }
+    .section__bottom {
+        display: flex;
+        font-size: 0.9rem;
+        justify-content: center;
+        font-family: var(--font-montserrat);
+    }
+    .section__menu ul li {
+        padding: 0.8rem 0 0 0;
+    }
   /* CSS styles for large screens go here */
 }
 

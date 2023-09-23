@@ -1,5 +1,6 @@
 import RegisterButton from '@/components/register-button/button';
 import styles from './desktop.module.css'
+import Link from 'next/link';
 export default function DesktopMenu() {
   return (
     <div className={styles.DesktopMenu}>
@@ -8,7 +9,7 @@ export default function DesktopMenu() {
             <li>Timeline</li>
             <li>Overview</li>
             <li>FAQs</li>
-            <li>Contacts</li>
+             <li> <Link href={"/contact"}>Contact</Link></li>
             <li>
              <RegisterButton />
             </li>

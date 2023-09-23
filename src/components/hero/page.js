@@ -19,7 +19,7 @@ export default function Hero() {
               c
               <img src="/bolb.png" alt="omo" />
             </span>
-            h Hackathon&nbsp;
+        h Hackathon{" "}
             <span>
               1.0<img src="/chain.png" alt="omo" />
              <img src="/spark.png" alt="omo" />

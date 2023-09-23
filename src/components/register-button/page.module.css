@@ -13,6 +13,7 @@
       rgba(212, 52, 254, 1),
       rgba(144, 58, 255, 1)
     );
+     cursor: pointer;
   }
   /* CSS styles for small screens go here */
 }
@@ -32,6 +33,7 @@
       rgba(212, 52, 254, 1),
       rgba(144, 58, 255, 1)
     );
+     cursor: pointer;
   }
   /* CSS styles for medium screens go here */
 }
@@ -52,6 +54,7 @@
       rgba(212, 52, 254, 1),
       rgba(144, 58, 255, 1)
     );
+     cursor: pointer;
   }
   /* CSS styles for large screens go here */
 }

@@ -1,0 +1,88 @@
+/* Small screens (up to 767px) */
+@media (max-width: 767px) {
+  /* CSS styles for small screens go here */
+}
+
+/* Medium screens (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* CSS styles for medium screens go here */
+}
+
+/* Large screens (992px and above) */
+@media (min-width: 992px) {
+ .ContactUs {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-montserrat);
+    margin: 22vh 0 14vh 0;
+  }
+
+  .section__text {
+    margin: auto 0 auto;
+    font-family: var(--font-montserrat);
+  }
+  .section__text h1 {
+    width: 27rem;
+  }
+  .section__text h1 span {
+    color: rgba(212, 52, 254, 1);
+  }
+  .section__text p {
+    width: 26vw;
+    font-size: 0.9rem;
+    padding: 2rem 0 2rem;
+    line-height: 1.5rem;
+  }
+
+  .form {
+    width: 30vw;
+    padding: 60px 40px 60px  40px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    color: white;
+  }
+  .form input::placeholder {
+    color: white;
+  }
+  .form textarea::placeholder {
+    color: white;
+  }
+  .form h3 {
+     color: rgba(212, 52, 254, 1);
+    margin-bottom: 20px;
+  }
+
+  .form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .form button {
+   background: linear-gradient(
+      to right,
+      rgba(254, 52, 185, 1),
+      rgba(212, 52, 254, 1),
+      rgba(144, 58, 255, 1)
+    );
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    width: 7rem;
+    cursor: pointer;
+  }
+
+  .submitbtn {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* CSS styles for large screens go here */
+}
