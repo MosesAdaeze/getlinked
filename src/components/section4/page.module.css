@@ -35,6 +35,33 @@
     padding: 1rem 2rem 1rem 2rem;
     line-height: 1.5rem;
   }
+
+  /* faq container  */
+  
+  .faq_container {
+    margin: 1rem 2rem 0 2rem;
+  }
+
+  .faq_item {
+    width: 100%;
+    border-bottom: 1px solid rgba(212, 52, 254, 1);
+  }
+
+  .faq_question {
+    cursor: pointer;
+    padding: 2.2rem 1rem 1rem 1rem;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .faq_question img {
+  margin-left: 1.2rem;
+ }
   /* CSS styles for small screens go here */
 }
 
@@ -71,6 +98,33 @@
     padding: 1rem 4rem 1rem 4rem;
     line-height: 1.5rem;
   }
+
+  /* faq container  */
+  
+  .faq_container {
+    margin: 1rem 2rem 0 2rem;
+  }
+
+  .faq_item {
+    width: 100%;
+    border-bottom: 1px solid rgba(212, 52, 254, 1);
+  }
+
+  .faq_question {
+    cursor: pointer;
+    padding: 2.2rem 1rem 1rem 1rem;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .faq_question img {
+  margin-left: 1.2rem;
+ }
   /* CSS styles for medium screens go here */
 }
 
